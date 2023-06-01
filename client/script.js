@@ -116,3 +116,10 @@ form.addEventListener("keyup", (e) => {
     handleSubmit(e);
   }
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+  chatContainer.innerHTML += chatStripe(
+    true,
+    "你好，我是帅松的小助手，请问有什么可以帮您？"
+  );
+});
